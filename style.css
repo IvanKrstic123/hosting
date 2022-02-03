@@ -1,0 +1,24 @@
+nav ul li a {
+    text-transform: uppercase;
+}
+#home-section {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('img/lights.jpg');
+    height: 200px;
+}
+#home-section .velicina {
+    font-size: 15px;
+}
+.razmak {
+    padding-bottom: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width: 768px){
+    .razmak {
+        padding-bottom: 0;
+    }
+}
